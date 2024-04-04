@@ -1,0 +1,105 @@
+
+.container-fluid{
+	background-image: url("https://img.freepik.com/premium-photo/yellow-clothespins-rope-catch-your-luck-yellow-background-lucky-break-concept_77829-5824.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .salogan {
+    font-size: 18px;
+    font-style: italic;
+    color: #6b0047;
+	font-weight: bold;
+  }
+  
+.todo {
+	display: flex;
+	padding: 10px 15px;
+	color: white;
+	border-bottom: 1px solid #DDD;
+}
+
+.todos {
+	font-family: Arial, sans-serif;
+  }
+  
+  .todo-input {
+	margin-bottom: 50px;
+	margin-top: 20px;
+	padding: 15px;
+	width: 300px;
+	border: none;
+	background-color: #f5f3f3;
+	border-radius: 30px;
+  }
+  
+  .todo-submit {
+	padding: 10px 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 30px;
+  }
+  
+  .todo-submit:hover {
+	background-color: #0072ec;
+	transition: 1s;
+	transform: scale(1.1);
+  }
+  
+  .todo-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	color: white;
+  }
+  
+  .todo {
+	margin-right: 10px;
+  }
+
+  .completed {
+	text-decoration: line-through;
+  }
+  
+  .delete,
+  .edit,
+  .save {
+	margin-right: 5px;
+	padding: 5px 10px;
+	background-color: #dc3545;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 40px;
+  }
+  
+  .delete:hover,
+  .edit:hover,
+  .save:hover {
+	background-color: #c82333;
+	transition: 1s;
+	transform: scale(1.1);
+  }
+  
+  .todo-item{
+	background-color: #f5f3f3;
+	padding: 10px;
+	color: black;
+  }
+  
+  .content-input{
+	border: none;
+	padding: 10px;
+  }

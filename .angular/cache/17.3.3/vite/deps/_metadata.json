@@ -1,0 +1,49 @@
+{
+  "hash": "b67104ac",
+  "configHash": "8be4a410",
+  "lockfileHash": "b3bd0a2b",
+  "browserHash": "38354157",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "cc41f30e",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "0f20776f",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "1430e978",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a22843ad",
+      "needsInterop": false
+    },
+    "@fortawesome/angular-fontawesome": {
+      "src": "../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
+      "file": "@fortawesome_angular-fontawesome.js",
+      "fileHash": "b6818665",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AFD3CTAY": {
+      "file": "chunk-AFD3CTAY.js"
+    },
+    "chunk-ABCBYWE2": {
+      "file": "chunk-ABCBYWE2.js"
+    },
+    "chunk-KD4RFF72": {
+      "file": "chunk-KD4RFF72.js"
+    }
+  }
+}

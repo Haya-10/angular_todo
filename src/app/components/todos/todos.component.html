@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <h1 class="title">{{title}}</h1>
+    <p class="salogan">{{salogan}}</p> 
+<div class="todos">
+     <!-- Form for adding new todo -->
+    <form (submit)="addTodo()">
+        <input
+            type="text"
+            name="inputTodo"
+            placeholder="Enter your todo.."
+            class="todo-input"
+            [(ngModel)]="inputTodo"
+        />
+        <input type="submit" class="ms-2" value="Add Todo" class="todo-submit"/>
+    </form>
+     <!-- Displaying todo items -->
+    <div *ngFor="let todo of todos; let i = index" class="todo-item mx-2 mt-3">
+        <input type="checkbox" [checked]="todo.completed" (change)="toggleDone(i)">
+        <span class="content mx-3" *ngIf="!todo.editing" [ngClass]="{ 'completed': todo.completed }">{{ todo.content }}</span>
+        <input class="content-input" *ngIf="todo.editing" type="text" [(ngModel)]="todo.content">
+        <button class="delete ms-2" (click)="deleteTodo(i)">delete</button>
+        <button class="edit" (click)="toggleEdit(todo)">Edit</button>
+        <button class="save" (click)="saveEdit(todo)">Save</button>
+      </div>
+</div> 
+</div>
